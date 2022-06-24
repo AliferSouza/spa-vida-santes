@@ -89,11 +89,7 @@ export default function cadastraPrincipal() {
         <div class="input-field button">
             <input type="button" class="button" value="Salvar" onclick="salvarLoja()">
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+     
     </form>    
 
 </div>

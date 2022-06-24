@@ -24,12 +24,13 @@ export default function Tiket() {
 
 
     if (verificarValor) {
-        return `       
-        <img class="imgLogo2" src="./src/img/logo.png" height="400px">
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        return `             
+        <img class="imgLogo2" src="./src/img/logo.png" height="500px">
+       <div class="containerTicket01">      
+            
              <div class="containerTicket">
-                 <div class="conteinerImgmiasInformacoes">
-                 <div class="colar"></div>  
+             <div class="colar"></div> 
+                 <div class="conteinerImgmiasInformacoes">                 
                  <div class="conteinerImg">              
                  <img class="conteinerImgFormat" src="${data.Foto}" height="100">                          
              </div>
@@ -41,25 +42,18 @@ export default function Tiket() {
                  </div>    
                  </div> 
                  </div>
+                 </div>
                 <br><br>
-               ${Ticket === true 
-                ? 
-                `<h4 style="color:#fff">Você está participando do sorteio!</h4>`
-                : 
-                `<h3 >Responda o formulario abaixo></h3>
-                ${googleForme()}   `} 
-                <br> `
+               ${Ticket === true ? `<h4 style="color:#fff">Você está participando do sorteio!</h4>`: googleForme() } `
     } else {
 
-
         return `
-    
         <img class="imgLogo2" src="./src/img/logo.png" height="500px">
-        <br>
-       
+       <div class="containerTicket01">      
+            
              <div class="containerTicket">
-                 <div class="conteinerImgmiasInformacoes"> 
-                 <div class="colar"></div>     
+             <div class="colar"></div> 
+                 <div class="conteinerImgmiasInformacoes">                     
                  <div class="conteinerImg">         
                  <img class="conteinerImgFormat" src="${Url.Foto || "http://127.0.0.1:5502/src/img/logo.png"}" height="100">          
             </div>
@@ -80,6 +74,7 @@ export default function Tiket() {
         
         <br>
         <br>
+    </div>
 
   `
     }

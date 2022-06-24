@@ -1,0 +1,196 @@
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    width: 100%;
+    background: #8a637d
+}
+
+#root{
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+}
+
+.form{       
+    background: linear-gradient(-45deg, #bebebe, #ffffff);
+    padding: 30px; 
+    border-radius: 10px;
+}
+
+.title{  
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #794e73;
+    border-radius: 25px;
+}
+
+.input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+input{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+
+input:is(:focus, :valid){
+    border-bottom-color: #865175;
+}
+
+
+.button {
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;    
+    border-radius: 6px;
+    background-color: #865175;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding-bottom: 3px;
+}
+
+.button2{  
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;    
+    border-radius: 6px;
+    background-color: #865175;
+    cursor: pointer;
+    transition: all 0.3s ease;   
+    padding-top: 0.3rem;
+  
+}
+
+.button input:hover{
+    background-color: #85637a;
+}
+
+.containerTicket{
+    position: relative; 
+    border-radius: 10%;
+    padding: 50px 20px 20px 20px;
+    background: #000000; 
+    font-size: 60%;
+    color: #fff;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.containerTicket01{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background: linear-gradient(-45deg, #bebebe, #ffffff);
+    border-radius: 1rem 1rem 1rem 1rem;
+ 
+   
+}
+
+.conteinerImgmiasInformacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  
+}
+
+.conteinerImgFormat{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #865175
+
+}
+
+.conteinerInformacoesNumero{
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+
+.imgLogo2{     
+    width: 200px;
+    height: 200px;
+  
+}
+
+.colar{  
+    position: absolute;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 100%;
+    left: 48%;
+    top: 10%
+}
+
+
+
+.escolhaFoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px
+}
+
+
+fieldset {
+    border:0 none;
+ }
+
+.radio-image label > input{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.radio-image label > input + img{
+    cursor:pointer;
+    border:4px solid #EEE;
+    border-radius:15px;
+    padding:10px;
+}
+.radio-image label > input:checked + img{
+    border:4px solid #3F51B5;
+}
+
+
+
+
+
