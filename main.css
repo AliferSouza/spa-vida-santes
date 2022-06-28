@@ -182,7 +182,7 @@ fieldset {
 
 .radio-image label > input + img{
     cursor:pointer;
-    border:4px solid #EEE;
+    border:2px solid #EEE;
     border-radius:15px;
     padding:10px;
 }
@@ -193,4 +193,16 @@ fieldset {
 
 
 
-
+@media only screen and (max-width: 400px) {
+      
+    .form{       
+        background: linear-gradient(-45deg, #bebebe, #ffffff);
+        padding: 10px; 
+        border-radius: 10px;
+    }
+    input{
+        position: relative;      
+        padding: 0 10px;
+      
+    }
+  }
