@@ -4,8 +4,7 @@ export default function cadastraPrincipal() {
     const estadoSeletFoto = [] || []
        
     addEventListener("click", e =>{                  
-        if(e.target.tagName === "IMG"){   
-            console.log(e.target.src)    
+        if(e.target.tagName === "IMG"){  
          estadoSeletFoto.push(e.target.src)  
         
         }    

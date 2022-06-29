@@ -1,6 +1,5 @@
 export default function objectToQueryString(initialObj){
 
-    console.log(initialObj)
     const reducer = (obj, parentPrefix = null) => (prev, key) => {
         const val = obj[key];
         key = encodeURIComponent(key);
