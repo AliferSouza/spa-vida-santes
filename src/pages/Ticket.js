@@ -79,7 +79,7 @@ export default function Tiket() {
              <div class="colar"></div> 
                  <div class="conteinerImgmiasInformacoes">                     
                  <div class="conteinerImg">         
-                 <img class="conteinerImgFormat" src="${Url.Foto || "http://127.0.0.1:5502/src/img/logo.png"}" height="100">          
+                 <img class="conteinerImgFormat" src="${Url.Foto || `${urlNavegador + "src/img/logo.png"}`}" height="100">          
             </div>
 
             <div class="conteinerInformacoes">
