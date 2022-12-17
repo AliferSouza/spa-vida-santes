@@ -1,0 +1,146 @@
+
+.title{   
+    color: #f7f7f7;
+    top:12px;
+    left: 10px;   
+    position: relative;
+    font-size: 22px;
+}
+
+
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    height: 3px;
+    width: 30px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+}
+
+
+.form-home{  
+    position: relative;
+    top: 40px;
+    padding: 0px 0px 20px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    gap: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+
+}
+
+
+.input{
+    position: relative;
+    height: 50px;
+    width: 80%;
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+
+.input:hover{
+
+    border-bottom: 2px solid #3498db;
+    
+}
+
+
+
+.img-up{
+    position: relative;
+    left: 10px;
+    border: 4px solid #3498db;
+    border-radius: 5px;
+}
+
+.escolhaBannerHome{
+    position: relative;
+    top: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 9px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.button-home{
+    width: 80%;
+    height: 50px;    
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #3498db;
+    color: #ffffff;
+}
+
+.color-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.labelbanner{
+  border-radius: 5px;
+}
+
+
+.labelbanner:hover{
+    border: 1px solid #0647f8;
+ }
+
+
+ 
+.escolhaa{
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+
+.escolhaa:hover{
+     border: 2px solid #0647f8;
+     opacity: 50%;
+}
+
+.button-backup{
+    background: #3498db;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: #f7f7f7;
+    font-weight: 600;
+}
+
+
+
+
+
+
